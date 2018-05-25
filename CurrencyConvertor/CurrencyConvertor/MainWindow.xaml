@@ -19,11 +19,11 @@
         <TextBlock x:Name="textBlock" Margin="154,10,154,0" TextWrapping="Wrap" RenderTransformOrigin="0.506,4.688" FontSize="18" Height="24" VerticalAlignment="Top"><Run Text="Konvertor "/><Run Text="měn"/></TextBlock>
         <DataGrid x:Name="displayRates_dataGrid" Margin="10,49,17,34" Grid.Row="1"/>
         <Button x:Name="exportButton" Content="Export to XLXS" Margin="0,22,17,0" RenderTransformOrigin="0.667,-0.227" Grid.Row="1" Click="exportButton_Click" Height="20" VerticalAlignment="Top" HorizontalAlignment="Right" Width="92"/>
-        <ComboBox x:Name="convertFrom_comboBox" Margin="108,14,0,0" Grid.Row="2" RenderTransformOrigin="0.699,0.826" HorizontalAlignment="Left" Width="80" Height="22" VerticalAlignment="Top" DropDownClosed="convertFrom_comboBox_DropDownClosed" KeyDown="convertFrom_comboBox_KeyDown" KeyUp="convertFrom_comboBox_KeyUp"/>
-        <ComboBox x:Name="convertTo_comboBox" Margin="240,14,0,0" Grid.Row="2" HorizontalAlignment="Left" Width="80" Height="22" VerticalAlignment="Top" DropDownClosed="convertTo_comboBox_DropDownClosed" KeyUp="convertTo_comboBox_KeyUp" KeyDown="convertTo_comboBox_KeyDown"/>
-        <TextBox x:Name="setAmount1_textBox" Margin="10,14,0,0" Grid.Row="2" TextWrapping="Wrap" HorizontalAlignment="Left" Width="80" TextChanged="setAmount1_textBox_TextChanged" Height="23" VerticalAlignment="Top"/>
-        <TextBlock x:Name="textBlock1" Margin="193,17,0,0" Grid.Row="2" TextWrapping="Wrap" Text="  &lt;--&gt;" HorizontalAlignment="Left" Width="42" Height="16" VerticalAlignment="Top"/>
-        <TextBox x:Name="setAmount2_textBox" Margin="340,14,0,0" Grid.Row="2" TextWrapping="Wrap" HorizontalAlignment="Left" Width="80" TextChanged="setAmount2_textBox_TextChanged" Height="23" VerticalAlignment="Top"/>
+        <ComboBox x:Name="convertFrom_comboBox" Margin="115,14,0,0" Grid.Row="2" RenderTransformOrigin="0.699,0.826" HorizontalAlignment="Left" Width="80" Height="22" VerticalAlignment="Top" DropDownClosed="convertFrom_comboBox_DropDownClosed" KeyDown="convertFrom_comboBox_KeyDown" KeyUp="convertFrom_comboBox_KeyUp"/>
+        <ComboBox x:Name="convertTo_comboBox" Margin="247,14,0,0" Grid.Row="2" HorizontalAlignment="Left" Width="80" Height="22" VerticalAlignment="Top" DropDownClosed="convertTo_comboBox_DropDownClosed" KeyUp="convertTo_comboBox_KeyUp" KeyDown="convertTo_comboBox_KeyDown"/>
+        <TextBox x:Name="setAmount1_textBox" Margin="8,14,0,0" Grid.Row="2" TextWrapping="Wrap" HorizontalAlignment="Left" Width="94" TextChanged="setAmount1_textBox_TextChanged" Height="23" VerticalAlignment="Top" MaxLength="10"/>
+        <TextBlock x:Name="textBlock1" Margin="200,17,0,0" Grid.Row="2" TextWrapping="Wrap" Text="  &lt;--&gt;" HorizontalAlignment="Left" Width="42" Height="16" VerticalAlignment="Top"/>
+        <TextBox x:Name="setAmount2_textBox" Margin="340,14,0,0" Grid.Row="2" TextWrapping="Wrap" HorizontalAlignment="Left" Width="80" TextChanged="setAmount2_textBox_TextChanged" Height="23" VerticalAlignment="Top" MaxLength="6"/>
 
     </Grid>
 </Window>
